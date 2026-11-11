@@ -2,7 +2,7 @@
 
 An interactive **Tableau** dashboard comparing Ireland's CO2 emissions with the EU-27, built for the MSc Data Analytics module *B9DA106 – Data Visualisation* at Dublin Business School.
 
-![Dashboard preview](images/dashboard_preview.png)
+![Dashboard preview](dashboard_preview.png)
 
 ## Key findings
 | | Ireland | EU-27 |
@@ -27,10 +27,10 @@ An interactive **Tableau** dashboard comparing Ireland's CO2 emissions with the 
 Our World in Data – CO2 and Greenhouse Gas Emissions dataset (50,411 rows x 79 columns, 1750–2024), CC BY 4.0: https://github.com/owid/co2-data. Analysis uses 1990–2024. Regional aggregates (blank ISO code) are separate from countries; EU-27 is the benchmark.
 
 ## Repo contents
-- `dashboard/Ireland_Climate_Dashboard.twbx` – packaged Tableau workbook
-- `data/OWID_CO2_GHG_Emissions_Dataset.xlsx` – dataset used (unchanged)
-- `analysis/key_figures.py` – reproduces the numbers above with pandas
-- `images/dashboard_preview.png` – dashboard preview
+   - `Ireland_Climate_Dashboard.twbx` – packaged Tableau workbook
+   - `OWID_CO2_GHG_Emissions_Dataset.xlsx` – dataset used (unchanged)
+   - `key_figures.py` – reproduces the numbers above with pandas
+   - `dashboard_preview.png` – dashboard preview
 
 ## Tools
 Tableau, Python (pandas), Excel.
